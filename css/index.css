@@ -1,0 +1,537 @@
+/*Mobile first*/ 
+*{
+  box-sizing: border-box; 
+}
+
+body{background-color: #F5EBE0;
+  margin: 0; 
+  background-image: url(baggrund.png); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+header {
+  background-color:#001D3D;
+  display: flex;
+  justify-content: center;
+} 
+
+
+.logo{
+  width: 158px; 
+  height: 89px; 
+  padding-top: 4px; 
+  padding-bottom: 4px;
+}
+
+
+
+.box1{ 
+  width: 200px;
+  height: 367px;
+  background-color: #D5BDAF;
+  border: 5px #001D3D;
+  position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+  left: 10px;
+  top: 11px; 
+  z-index: -1; 
+}
+
+.mig{ /*punktum foran fordi der er en class*/ 
+  width: 170px;  
+  position: relative; 
+  left: 15px;
+  top: 10px; 
+} 
+ 
+.tekst1{
+  text-align: center;  
+  line-height: 30px;  
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 22px; 
+  margin-bottom: 40px;
+}
+ 
+.box1 a{ /*knap til box1 - det er dey a´et gør*/
+  border-radius: 50px; 
+  background-color: #001D3D; 
+  color: #CCD5AE;  
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-decoration: none; 
+  margin-left: 43px;  
+}
+
+.box2{ 
+  width: 200px;
+  height: 367px;
+  background-color: #D5BDAF;
+  border: 5px #001D3D;
+  position: absolute;  /*starter helt oppe i venstre hjørne*/
+  right: 10px;  
+  top: 100px;  
+  z-index: -1; 
+} 
+
+.tekst2{
+  text-align: center;  
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 30px; 
+  margin-bottom: 40px;
+}  
+
+.box2 a{ /*knap til box2 - det er det a´et gør*/
+  border-radius: 50px; 
+  background-color: #001D3D; 
+  color: #CCD5AE;  
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-decoration: none; 
+  margin-left: 35px;  
+}
+
+.box3{
+  width: 200px;
+  height: 367px;
+  background-color: #D5BDAF;
+  border: 5px #001D3D;
+  position: relative; 
+  left: 10px; 
+  top: 22px; 
+  z-index: -1;
+} 
+
+.tekst3{
+  text-align: center;  
+  padding-top: 173px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 30px; 
+  margin-bottom: -237px;
+} 
+
+.box3 a{ /*knap til box2 - det er det a´et gør*/
+  border-radius: 50px; 
+  background-color: #001D3D; 
+  color: #CCD5AE;  
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-decoration: none; 
+  margin-left: 26px;   
+}
+
+.box4{
+  width: 200px;
+  height: 367px;
+  background-color: #D5BDAF;
+  border: 5px #001D3D;
+  position: absolute; 
+  right: 10px; 
+  top: 494px;
+  z-index: -1; /*-1 lag ligger bagerst, så mine billeder ligger over min box*/
+} 
+
+.tekst4{
+  text-align: center;  
+  line-height: 30px; 
+  padding-top: 40px;
+  margin-bottom: -205px;
+} 
+
+
+.mig2{ /*punktum foran fordi der er en class*/ 
+  width: 170px;  
+  position: relative; 
+  left: 15px;
+  top: 240px; 
+}  
+
+.box4 a{ /*knap til box2 - det er det a´et gør*/
+  border-radius: 50px; 
+  background-color: #001D3D; 
+  color: #CCD5AE;  
+  padding: 10px 15px; 
+  font-size: 20px; 
+  text-decoration: none; 
+  margin-left: 7px;   
+}
+
+footer{
+  width: auto;
+  background-color:#001D3D; 
+  padding: 50px; 
+  margin-top: 34px;
+} 
+
+.footerbox{
+  width: auto;
+  background-color:#D5BDAF; 
+  margin: auto; 
+  text-align: center;  
+  padding-top: 2px; 
+  padding-bottom: 2px;
+}  
+
+
+/*Ipad*/ 
+@media only screen and (min-width: 600px){ 
+  *{
+    box-sizing: border-box;
+  }
+  
+  body{background-color: #F5EBE0;
+    margin: 0; 
+    background-image: url(baggrund.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  
+  header {
+    background-color:#001D3D;
+    display: flex;
+    justify-content: center;
+  } 
+  
+  .logo{
+    width: 158px; 
+    height: 89px; 
+    padding-top: 4px; 
+    padding-bottom: 4px;
+  }
+  
+  .box1{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 100px;
+    top: 11px; 
+    z-index: -1; 
+  }
+  
+  .mig{ /*punktum foran fordi der er en class*/ 
+    width: 170px;  
+    position: relative; 
+    left: 15px;
+    top: 10px; 
+  } 
+   
+  .tekst1{
+    text-align: center;  
+    line-height: 30px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 22px; 
+    margin-bottom: 40px;
+  }
+   
+  .box1 a{ /*knap til box1 - det er dey a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 43px;  
+  }
+  
+  .box2{ 
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: absolute;  /*starter helt oppe i venstre hjørne*/
+    right: 100px;  
+    top: 100px;  
+    z-index: -1; 
+  } 
+  
+  .tekst2{
+    text-align: center;  
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px; 
+    margin-bottom: 40px;
+  }  
+  
+  .box2 a{ /*knap til box2 - det er det a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 35px;  
+  }
+  
+  .box3{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; 
+    left: 100px; 
+    top: 22px; 
+    z-index: -1;
+  } 
+  
+  .tekst3{
+    text-align: center;  
+    padding-top: 173px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px; 
+    margin-bottom: -237px;
+  } 
+  
+  .box3 a{ /*knap til box2 - det er det a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 26px;   
+  }
+  
+  .box4{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: absolute; 
+    right: 100px; 
+    top: 494px;
+    z-index: -1; /*-1 lag ligger bagerst, så mine billeder ligger over min box*/
+  } 
+  
+  .tekst4{
+    text-align: center;  
+    line-height: 30px; 
+    padding-top: 40px;
+    margin-bottom: -205px;
+  } 
+  
+  
+  .mig2{ /*punktum foran fordi der er en class*/ 
+    width: 170px;  
+    position: relative; 
+    left: 15px;
+    top: 240px; 
+  }  
+  
+  .box4 a{ /*knap til box2 - det er det a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 15px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 7px;   
+  }
+  
+  footer{
+    width: auto;
+    background-color:#001D3D; 
+    padding: 50px; 
+    margin-top: 34px;
+  } 
+  
+  .footerbox{
+    width: auto;
+    background-color:#D5BDAF; 
+    margin: auto; 
+    text-align: center;  
+    padding-top: 2px; 
+    padding-bottom: 2px;
+  }  
+
+}
+
+
+/*Computer*/
+@media only screen and (min-width: 800px){ 
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  body{background-color: #F5EBE0;
+    margin: 0; 
+    background-image: url(baggrund.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  
+  header {
+    background-color:#001D3D;
+    display: flex;
+    justify-content: center;
+  } 
+  
+  
+  .logo{
+    width: 158px; 
+    height: 89px; 
+    padding-top: 4px; 
+    padding-bottom: 4px;
+  }
+  
+  .box1{
+    width: 300px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 350px;
+    top: 11px; 
+    z-index: -1;
+  }
+  
+  .mig{ /*punktum foran fordi der er en class*/ 
+    width: 273px;  
+    position: relative; 
+    left: 15px;
+    top: 10px; 
+  } 
+   
+  .tekst1{
+    text-align: center;  
+    line-height: 30px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 22px; 
+    margin-bottom: 40px;
+  }
+   
+  .box1 a{ /*knap til box1 - det er dey a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 95px;  
+  }
+  
+  .box2{ 
+    width: 300px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: absolute;  /*starter helt oppe i venstre hjørne*/
+    right: 350px;  
+    top: 100px;  
+    z-index: -1; 
+  } 
+  
+  .tekst2{
+    text-align: center;  
+    padding-top: 125px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px; 
+    margin-bottom: 40px;
+  }  
+  
+  .box2 a{ /*knap til box2 - det er det a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 95px;  
+  }
+  
+  .box3{
+    width: 300px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; 
+    left: 350px; 
+    top: 22px; 
+    z-index: -1;
+  } 
+  
+  .tekst3{
+    text-align: center;  
+    padding-top: 173px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px; 
+    margin-bottom: -237px;
+  } 
+  
+  .box3 a{ /*knap til box3 - det er det a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 78px;  
+    position: absolute; 
+    top: 5px   
+  }
+  
+  .box4{
+    width: 300px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: absolute; 
+    right: 350px; 
+    top: 494px;
+    z-index: -1; /*-1 lag ligger bagerst, så mine billeder ligger over min box*/
+  } 
+  
+  .tekst4{
+    text-align: center;  
+    line-height: 30px; 
+    padding-top: 40px;
+    margin-bottom: -205px;
+  } 
+  
+  
+  .mig2{ /*punktum foran fordi der er en class*/ 
+    width: 170px;  
+    position: relative; 
+    left: 15px;
+    top: 240px; 
+  }  
+  
+  .box4 a{ /*knap til box2 - det er det a´et gør*/
+    border-radius: 50px; 
+    background-color: #001D3D; 
+    color: #CCD5AE;  
+    padding: 10px 15px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    margin-left: 60px;  
+    position: absolute;   
+    top: 5px
+  }
+  
+  footer{
+    width: auto;
+    background-color:#001D3D; 
+    padding: 50px; 
+    margin-top: 34px;
+  } 
+  
+  .footerbox{
+    width: auto;
+    background-color:#D5BDAF; 
+    margin: auto; 
+    text-align: center;  
+    padding-top: 2px; 
+    padding-bottom: 2px;
+  }  
+}

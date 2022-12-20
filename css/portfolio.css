@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box; 
+  }
+  
+body{background-color: #F5EBE0;
+    margin: 0; 
+    background-image: url(baggrund.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+  
+header {
+    background-color:#001D3D;
+    display: flex;
+    justify-content: center;
+} 
+  
+  
+.logo{
+    width: 158px; 
+    height: 89px; 
+    padding-top: 4px; 
+    padding-bottom: 4px;
+}
+  
+.grid{ 
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    
+}
+
+
+.learningxdbox{ 
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 10px;
+    top: 11px; 
+    z-index: -1;
+}
+
+.learningadobeanimatebox{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 10px;
+    top: 11px; 
+    z-index: -1;
+}
+
+
+.moveingart{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 10px;
+    top: 11px; 
+    z-index: -1;
+}
+
+
+.illustrator{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 10px;
+    top: 11px; 
+    z-index: -1;
+}
+ 
+
+.foto{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 10px;
+    top: 11px; 
+    z-index: -1;
+}
+
+.illustratorcss{
+    width: 200px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 10px;
+    top: 11px; 
+    z-index: -1;
+} 
+
+
+footer{
+    width: auto;
+    background-color:#001D3D; 
+    padding: 50px; 
+    margin-top: 34px;
+} 
+  
+.footerbox{
+    width: auto;
+    background-color:#D5BDAF; 
+    margin: auto; 
+    text-align: center;  
+    padding-top: 2px; 
+    padding-bottom: 2px;
+}    
