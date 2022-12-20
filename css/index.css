@@ -144,7 +144,7 @@ header {
 
 .mig2{ /*punktum foran fordi der er en class*/ 
   width: 170px;  
-  position: relative; 
+  position: relative; /*den får en position der er relativ i forhold til hvor den stod før*/
   left: 15px;
   top: 240px; 
 }  
