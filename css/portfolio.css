@@ -24,8 +24,8 @@ header {
     text-decoration: none;   
     margin-left: 30px;
     position: absolute;  
-    top: 23px; 
-  }
+    top: 23px;
+ }
   
 .logo{
     width: 158px; 
@@ -37,7 +37,7 @@ header {
 
 .learnigxdbox{ 
     width: 400px;
-    height: 500x;
+    height: 470px;
     background-color: #D5BDAF;
     border: 5px #001D3D;
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
@@ -47,22 +47,20 @@ header {
 
 .xd{ 
     width: 200px; 
-    padding-top: 20px;
+    padding-top: 25px;
     padding-left: 10px;
 }
 
 
-
-
 .learningadobeanimatebox{
-    width: 200px;
+    width: 400px;
     height: 367px;
     background-color: #D5BDAF;
     border: 5px #001D3D;
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
-    left: 10px;
-    top: 11px; 
-    z-index: -1; 
+    left: 20px;
+    top: 40px; 
+    z-index: 10; 
     padding: auto;
 }
 
@@ -75,7 +73,7 @@ header {
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
     left: 10px;
     top: 11px; 
-    z-index: -1;
+    z-index: 10;
 }
 
 
@@ -87,11 +85,8 @@ header {
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
     left: 10px;
     top: 11px; 
-    z-index: -1;
+    z-index: 10;
 } 
-
-
- 
 
 .foto{
     width: 200px;
@@ -101,7 +96,7 @@ header {
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
     left: 10px;
     top: 11px; 
-    z-index: -1;
+    z-index: 10;
 }
 
 .illustratorcss{
@@ -112,7 +107,7 @@ header {
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
     left: 10px;
     top: 11px; 
-    z-index: -1;
+    z-index: 10;
 } 
 
 

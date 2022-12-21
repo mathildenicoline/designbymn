@@ -210,7 +210,7 @@ footer{
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
     left: 100px;
     top: 11px; 
-    z-index: -1; 
+    z-index: 10; 
   }
   
   .mig{ /*punktum foran fordi der er en class*/ 
@@ -247,7 +247,7 @@ footer{
     position: absolute;  /*starter helt oppe i venstre hjørne*/
     right: 100px;  
     top: 100px;  
-    z-index: -1; 
+    z-index: 10; 
   } 
   
   .tekst2{
@@ -277,7 +277,7 @@ footer{
     position: relative; 
     left: 100px; 
     top: 22px; 
-    z-index: -1;
+    z-index: 10;
   } 
   
   .tekst3{
@@ -307,7 +307,7 @@ footer{
     position: absolute; 
     right: 100px; 
     top: 494px;
-    z-index: -1; /*-1 lag ligger bagerst, så mine billeder ligger over min box*/
+    z-index: 10; /*-1 lag ligger bagerst, så mine billeder ligger over min box*/
   } 
   
   .tekst4{
@@ -427,7 +427,7 @@ footer{
     position: absolute;  /*starter helt oppe i venstre hjørne*/
     right: 350px;  
     top: 100px;  
-    z-index: -1; 
+    z-index: 10; 
   } 
   
   .tekst2{
@@ -457,7 +457,7 @@ footer{
     position: relative; 
     left: 350px; 
     top: 22px; 
-    z-index: -1;
+    z-index: 10;
   } 
   
   .tekst3{
@@ -489,7 +489,7 @@ footer{
     position: absolute; 
     right: 350px; 
     top: 494px;
-    z-index: -1; /*-1 lag ligger bagerst, så mine billeder ligger over min box*/
+    z-index: 10; /*-1 lag ligger bagerst, så mine billeder ligger over min box*/
   } 
   
   .tekst4{
