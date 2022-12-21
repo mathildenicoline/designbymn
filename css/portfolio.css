@@ -15,14 +15,14 @@ header {
     justify-content: center;
 } 
  
-.knap a{ 
+.knap { 
     border-radius: 70px; 
     background-color: #CCD5AE; 
     color: #001D3D;  
     padding: 15px 15px; 
     font-size: 10px; 
     text-decoration: none;   
-    margin-left: 30px;
+    margin-left: -295px;
     position: absolute;  
     top: 23px;
  }
@@ -37,7 +37,7 @@ header {
 
 .learnigxdbox{ 
     width: 400px;
-    height: 470px;
+    height: 367px;
     background-color: #D5BDAF;
     border: 5px #001D3D;
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
@@ -46,11 +46,24 @@ header {
 } 
 
 .xd{ 
-    width: 200px; 
-    padding-top: 25px;
-    padding-left: 10px;
-}
+    width: 130px; 
+    padding-bottom: 0px;
+    margin-left: 27px;
+} 
 
+.xd2{ 
+    width: 132px; 
+    padding-top: 0px;
+    margin-left: 78px;
+} 
+
+.tekst1{ 
+    text-align: center;    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    line-height: 20px;  
+}
 
 .learningadobeanimatebox{
     width: 400px;
@@ -59,56 +72,98 @@ header {
     border: 5px #001D3D;
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
     left: 20px;
-    top: 40px; 
-    z-index: 10; 
-    padding: auto;
+    top: 60px; 
+    z-index: 10;
+}
+
+.animate{
+    width: 350px; 
+    padding-top: 50px;
+    padding-left: 50px;
+} 
+
+.tekst2{
+    text-align: center;     
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
 
-.moveingart{
-    width: 200px;
+.moveingartbox{
+    width: 400px;
     height: 367px;
     background-color: #D5BDAF;
     border: 5px #001D3D;
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
-    left: 10px;
-    top: 11px; 
+    left: 20px;
+    top: 90px; 
     z-index: 10;
 }
 
+.art{ 
+    width: 350px; 
+    padding-top: 25px;
+    padding-left: 50px;
+} 
+
+.tekst3{ 
+    text-align: center;     
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+
+.illustratorbox{
+    width: 400px;
+    height: 367px;
+    background-color: #D5BDAF;
+    border: 5px #001D3D;
+    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+    left: 20px;
+    top: 120px; 
+    z-index: 10;
+}  
 
 .illustrator{
-    width: 200px;
-    height: 367px;
-    background-color: #D5BDAF;
-    border: 5px #001D3D;
-    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
-    left: 10px;
-    top: 11px; 
-    z-index: 10;
+    width: 380px; 
+    padding-top: 35px;
+    padding-left: 22px;
 } 
 
+.tekst4{ 
+    text-align: center;     
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
 .foto{
-    width: 200px;
+    width: 400px;
     height: 367px;
     background-color: #D5BDAF;
     border: 5px #001D3D;
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
-    left: 10px;
-    top: 11px; 
+    left: 20px;
+    top: 160px; 
+    margin-bottom: 200px;
     z-index: 10;
 }
 
-.illustratorcss{
-    width: 200px;
-    height: 367px;
-    background-color: #D5BDAF;
-    border: 5px #001D3D;
-    position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
-    left: 10px;
-    top: 11px; 
-    z-index: 10;
-} 
+.foto1{
+    width: 180px; 
+    padding-top: 10px;
+    margin-left: 115px;
+}
+
+
+.tekst5{
+    text-align: center;     
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px; 
+}
 
 
 footer{
@@ -126,3 +181,374 @@ footer{
     padding-top: 2px; 
     padding-bottom: 2px;
 }    
+
+
+/*Ipad*/
+@media only screen and (min-width: 600px) {
+    *{
+        box-sizing: border-box; 
+      }
+      
+    body{background-color: #F5EBE0;
+        margin: 0; 
+        background-image: url(../img/baggrund.png); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+      
+    header {
+        background-color:#001D3D;
+        display: flex;
+        justify-content: center;
+    } 
+     
+    .knap { 
+        border-radius: 70px; 
+        background-color: #CCD5AE; 
+        color: #001D3D;  
+        padding: 15px 15px; 
+        font-size: 10px; 
+        text-decoration: none;   
+        margin-left: -550px;
+        position: absolute;  
+        top: 23px;
+     }
+      
+    .logo{
+        width: 158px; 
+        height: 89px; 
+        padding-top: 4px; 
+        padding-bottom: 4px;
+    }
+      
+    .learnigxdbox{ 
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 20px;
+        top: 20px;
+    } 
+    
+    .xd{ 
+        width: 130px; 
+        padding-bottom: 0px;
+        margin-left: 170px;
+    } 
+    
+    .xd2{ 
+        width: 132px; 
+        padding-top: 0px;
+        margin-left: 78px;
+    } 
+    
+    .tekst1{ 
+        text-align: center;    
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 3px;
+        line-height: 20px;  
+    }
+    
+    .learningadobeanimatebox{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 20px;
+        top: 60px; 
+        z-index: 10;
+    }
+    
+    .animate{
+        width: 400px; 
+        padding-top: 40px;
+        padding-left: 50px; 
+        margin-left: 120px;
+    } 
+    
+    .tekst2{
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+    }
+    
+    .moveingartbox{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 20px;
+        top: 90px; 
+        z-index: 10;
+    }
+    
+    .art{ 
+        width: 400px; 
+        padding-top: 15px;
+        padding-left: 50px; 
+        margin-left: 120px;
+    } 
+    
+    .tekst3{ 
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
+    .illustratorbox{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 20px;
+        top: 120px; 
+        z-index: 10;
+    }  
+    
+    .illustrator{
+        width: 450px; 
+        padding-top: 15px;
+        padding-left: 22px; 
+        margin-left: 100px;
+    } 
+    
+    .tekst4{ 
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
+    .foto{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 20px;
+        top: 160px; 
+        margin-bottom: 200px;
+        z-index: 10;
+    }
+    
+    .foto1{
+        width: 200px; 
+        padding-top: 10px;
+        margin-left: 230px; 
+    }
+    
+    .tekst5{
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px; 
+    }
+    
+    footer{
+        width: auto;
+        background-color:#001D3D; 
+        padding: 50px; 
+        margin-top: 34px;
+    } 
+      
+    .footerbox{
+        width: auto;
+        background-color:#D5BDAF; 
+        margin: auto; 
+        text-align: center;  
+        padding-top: 2px; 
+        padding-bottom: 2px;
+    }  
+ } 
+
+ /*Computer*/
+@media only screen and (min-width: 800px) {
+    *{
+        box-sizing: border-box; 
+      }
+      
+    body{background-color: #F5EBE0;
+        margin: 0; 
+        background-image: url(../img/baggrund.png); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+      
+    header {
+        background-color:#001D3D;
+        display: flex;
+        justify-content: center;
+    } 
+     
+    .knap { 
+        border-radius: 70px; 
+        background-color: #CCD5AE; 
+        color: #001D3D;  
+        padding: 15px 15px; 
+        font-size: 10px; 
+        text-decoration: none;   
+        margin-left: -1300px;
+        position: absolute;  
+        top: 23px;
+     }
+      
+    .logo{
+        width: 158px; 
+        height: 89px; 
+        padding-top: 4px; 
+        padding-bottom: 4px;
+    }
+      
+    .learnigxdbox{ 
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 410px;
+        top: 20px;
+    } 
+    
+    .xd{ 
+        width: 130px; 
+        padding-bottom: 0px;
+        margin-left: 170px;
+    } 
+    
+    .xd2{ 
+        width: 132px; 
+        padding-top: 0px;
+        margin-left: 78px;
+    } 
+    
+    .tekst1{ 
+        text-align: center;    
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 3px;
+        line-height: 20px;  
+    }
+    
+    .learningadobeanimatebox{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 410px; 
+        top: 60px; 
+        z-index: 10;
+    }
+    
+    .animate{
+        width: 400px; 
+        padding-top: 40px;
+        padding-left: 50px; 
+        margin-left: 120px;
+    } 
+    
+    .tekst2{
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+    }
+    
+    .moveingartbox{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 410px;
+        top: 90px; 
+        z-index: 10;
+    }
+    
+    .art{ 
+        width: 400px; 
+        padding-top: 15px;
+        padding-left: 50px; 
+        margin-left: 120px;
+    } 
+    
+    .tekst3{ 
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
+    .illustratorbox{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 410px;
+        top: 120px; 
+        z-index: 10;
+    }  
+    
+    .illustrator{
+        width: 450px; 
+        padding-top: 15px;
+        padding-left: 22px; 
+        margin-left: 100px;
+    } 
+    
+    .tekst4{ 
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
+    .foto{
+        width: 670px;
+        height: 367px;
+        background-color: #D5BDAF;
+        border: 5px #001D3D;
+        position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
+        left: 410px;
+        top: 160px; 
+        margin-bottom: 200px;
+        z-index: 10;
+    }
+    
+    .foto1{
+        width: 200px; 
+        padding-top: 10px;
+        margin-left: 230px; 
+    }
+    
+    .tekst5{
+        text-align: center;     
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px; 
+    }
+    
+    footer{
+        width: auto;
+        background-color:#001D3D; 
+        padding: 50px; 
+        margin-top: 34px;
+    } 
+      
+    .footerbox{
+        width: auto;
+        background-color:#D5BDAF; 
+        margin: auto; 
+        text-align: center;  
+        padding-top: 2px; 
+        padding-bottom: 2px;
+    }  
+ }
