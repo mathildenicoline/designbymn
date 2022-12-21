@@ -5,7 +5,7 @@
  
 body{background-color: #F5EBE0;
     margin: 0; 
-    background-image: url(baggrund.png); 
+    background-image: url(../img/baggrund.png); 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
@@ -84,6 +84,34 @@ header {
     padding-right: 20px;
     line-height: 20px;  
 } 
+
+#knap{ 
+   border-radius: 20px; 
+   background-color:  #CCD5AE; 
+   color: #001D3D;  
+   padding: 5px 5px; 
+   font-size: 10px; 
+   text-decoration: none;   
+   margin-left: 39px;
+   position: absolute;  
+   top: 30px 
+   
+   
+   
+} 
+
+.knapkontakt a{ 
+    border-radius: 70px; 
+    background-color:  #001D3D; 
+    color: #CCD5AE;  
+    padding: 25px 25px; 
+    font-size: 20px; 
+    text-decoration: none;   
+    margin-left: 139px;
+    position: absolute; 
+    bottom: 25px;
+
+}
 
 footer{
     width: auto;
@@ -193,7 +221,29 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 20px;  
-} 
+}  
+
+.knap{ 
+    border-radius: 20px; 
+    background-color:  #CCD5AE; 
+    color: #001D3D;  
+    padding: 5px 5px; 
+    font-size: 10px; 
+    text-decoration: none;  
+    position: absolute 
+  } 
+  
+  .knapkontakt a{ 
+    border-radius: 70px; 
+    background-color:  #001D3D; 
+    color: #CCD5AE;  
+    padding: 25px 25px; 
+    font-size: 20px; 
+    text-decoration: none;   
+    margin-left: 225px;
+    position: absolute; 
+    bottom: 25px;
+ }
 
 footer{
     width: auto;
@@ -222,7 +272,7 @@ footer{
      
     body{background-color: #F5EBE0;
         margin: 0; 
-        background-image: url(baggrund.png); 
+        background-image: url(../img/baggrund.png); 
         background-repeat: no-repeat; 
         background-size: cover; 
     }
@@ -242,13 +292,13 @@ footer{
     } 
     
     .box1{
-        width: 1443px;
-        height: 750px;
+        width: 1433px;
+        height: 780px;
     
         background-color: #D5BDAF;
         border: 5px #001D3D;
         position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
-        left: 10px;
+        left: 9px;
         top: 11px; 
         z-index: -1;
     }
@@ -301,7 +351,30 @@ footer{
         padding-right: 20px;
         line-height: 20px;  
     } 
-    
+
+    .knap a{ 
+        border-radius: 20px; 
+        background-color:  #CCD5AE; 
+        color: #001D3D;  
+        padding: 5px 5px; 
+        font-size: 10px; 
+        text-decoration: none;  
+        position: absolute 
+      } 
+      
+  
+.knapkontakt a{ 
+    border-radius: 70px; 
+    background-color:  #001D3D; 
+    color: #CCD5AE;  
+    padding: 15px 15px; 
+    font-size: 20px; 
+    text-decoration: none;   
+    margin-left: 654px;
+    position: absolute; 
+    bottom: 25px;
+}
+
     footer{
         width: auto;
         background-color:#001D3D; 

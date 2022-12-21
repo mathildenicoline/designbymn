@@ -24,15 +24,16 @@ header {
     padding-bottom: 4px;
 } 
 
+
+
 .plakat{ /*punktum foran fordi der er en class*/ 
-     width: 200px;
-     height: 189px; 
-     padding-top: 8px; 
-    
+    width: 30px; 
+    max-width: 300px;
 } 
 
 .plakat2{ /*punktum foran fordi der er en class*/ 
-    
+    width: 30px;
+    max-width: 300px;  
 } 
 
 

@@ -14,7 +14,18 @@ header {
     display: flex;
     justify-content: center;
 } 
-  
+ 
+.knap a{ 
+    border-radius: 70px; 
+    background-color: #CCD5AE; 
+    color: #001D3D;  
+    padding: 15px 15px; 
+    font-size: 10px; 
+    text-decoration: none;   
+    margin-left: 30px;
+    position: absolute;  
+    top: 23px; 
+  }
   
 .logo{
     width: 158px; 
@@ -23,23 +34,25 @@ header {
     padding-bottom: 4px;
 }
   
-.grid{ 
-    display: grid;
-    grid-template-columns: 50% 50%; 
-    
-}
 
-
-.learningxdbox{ 
-    width: 200px;
-    height: 367px;
+.learnigxdbox{ 
+    width: 400px;
+    height: 500x;
     background-color: #D5BDAF;
     border: 5px #001D3D;
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
-    left: 10px;
-    top: 11px; 
-    z-index: -1;
+    left: 20px;
+    top: 20px;
+} 
+
+.xd{ 
+    width: 200px; 
+    padding-top: 20px;
+    padding-left: 10px;
 }
+
+
+
 
 .learningadobeanimatebox{
     width: 200px;
@@ -49,7 +62,8 @@ header {
     position: relative; /*den starter ved header, kan ses i html da box1 ligger tættest på headeren der*/
     left: 10px;
     top: 11px; 
-    z-index: -1;
+    z-index: -1; 
+    padding: auto;
 }
 
 
@@ -74,7 +88,9 @@ header {
     left: 10px;
     top: 11px; 
     z-index: -1;
-}
+} 
+
+
  
 
 .foto{
